@@ -1,0 +1,203 @@
+:Card a rdfs:Class.
+
+:Monster a owl:Class;
+    rdfs:subClassOf :Card.
+
+:Spell a owl:Class;
+    rdfs:subClassOf :Card.
+
+:Trap a owl:Class;
+    rdfs:subClassOf :Card.
+
+:RokketTracer a :Monster;
+    :id             14615;
+    :name           "Rokket Tracer";
+    :category       :Effect, :Tuner;
+    :desc           "(Quick Effect): You can target 1 face-up card you control; destroy it, and 
+                    if you do, Special Summon 1 'Rokket' monster from your Deck, except 'Rokket Tracer', 
+                    also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, 
+                    except DARK monsters. You can only use this effect of 'Rokket Tracer' once per turn.";
+    :atk            1600;
+    :def            1000;
+    :level          4;
+    :race           "Dragon";
+    :attribute      "DARK";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/d/dd/RokketTracer-MGED-EN-PGR-1E.png".
+
+:AshBlossom a :Monster;
+    :id             12950;
+    :name           "Ash Blossom & Joyous Spring";
+    :category       :Effect, :Tuner;
+    :desc           "When a card or effect is activated that includes any of these effects (Quick Effect): 
+                    You can discard this card; negate that effect. \n
+                    ● Add a card from the Deck to the hand. \n
+                    ● Special Summon from the Deck. \n
+                    ● Send a card from the Deck to the GY. \n
+                    You can only use this effect of 'Ash Blossom & Joyous Spring' once per turn.";
+    :atk            0;
+    :def            1800;
+    :level          3;
+    :race           "Zombie";
+    :attribute      "FIRE";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/4/41/AshBlossomJoyousSpring-DUPO-EN-UR-1E.png".
+
+:BorreloadSavageDragon a :Monster;
+    :id             14114;
+    :name           "Borreload Savage Dragon";
+    :category       :Synchro, :Effect;
+    :desc           "1 Tuner + 1+ non-Tuner monsters \n
+                    If this card is Synchro Summoned: You can equip 1 Link Monster from your GY to this card, 
+                    and if you do, place Borrel Counters on this card equal to that Link Monster's Link Rating. 
+                    This card gains ATK equal to half the ATK of the monster equipped to it by its effect. 
+                    When your opponent activates a card or effect (Quick Effect): You can remove 1 Borrel 
+                    Counter from this card; negate the activation. You can only use this effect of 
+                    'Borreload Savage Dragon' once per turn.";
+    :atk            3000;
+    :def            2500;
+    :level          8;
+    :race           "Dragon";
+    :attribute      "DARK";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/2/22/BorreloadSavageDragon-MP20-EN-PScR-1E.png".
+
+:Number38 a :Monster;
+    :id             12260;
+    :name           "Number 38: Hope Harbinger Dragon Titanic Galaxy";
+    :category       :Xyz, :Effect;
+    :desc           "2 Level 8 monsters\n
+                    Once per turn, when a Spell Card or effect is activated on the field (Quick Effect): 
+                    You can negate that effect, and if you do, attach that card to this card as material. 
+                    When an opponent's monster declares an attack: You can detach 1 material from this card; 
+                    change the attack target to this card and perform damage calculation. 
+                    If another face-up Xyz Monster(s) you control is destroyed by battle or card effect: 
+                    You can target 1 face-up Xyz Monster you control; it gains ATK equal to 1 of those destroyed 
+                    monster's original ATK.";
+    :atk            3000;
+    :def            2500;
+    :level          8;
+    :race           "Dragon";
+    :attribute      "LIGHT";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/7/73/Number38HopeHarbingerDragonTitanicGalaxy-CYHO-EN-SR-LE.png".
+
+
+:Apollousa a :Monster;
+    :id             14496;
+    :name           "Apollousa, Bow of the Goddess";
+    :category       :Link, :Effect;
+    :desc           "2+ monsters with different names, except Tokens \n
+                    You can only control 1 'Apollousa, Bow of the Goddess'. The original ATK of this card 
+                    becomes 800 x the number of Link Materials used for its Link Summon. Once per Chain, 
+                    when your opponent activates a monster effect (Quick Effect): You can make this card 
+                    lose exactly 800 ATK, and if you do, negate the activation.";
+    :atk            "?";
+    :level          4;
+    :race           "Fairy";
+    :attribute      "WIND";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/f/ff/ApollousaBowoftheGoddess-MAGO-EN-PGR-1E.png".
+
+:MonsterReborn a :Spell;
+    :id             4842;
+    :name           "Monster Reborn";
+    :category       :Normal;
+    :desc           "Target 1 monster in either GY; Special Summon it.";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/4/40/MonsterReborn-EGO1-EN-C-1E.png".
+
+:QuickLaunch a :Spell;
+    :id             13272;
+    :name           "Quick Launch";
+    :category       :Quick;
+    :desc           "Special Summon 1 'Rokket' monster from your Deck, but it cannot attack, 
+                    also destroy it during the End Phase.";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/e/ea/QuickLaunch-MP18-EN-ScR-1E.png".
+
+:WorldLegacyGuardragon a :Spell;
+    :id             14139;
+    :name           "World Legacy Guardragon";
+    :category       :Continuous;
+    :desc           "When this card is activated: You can target 1 Level 4 or lower Dragon 
+                    monster in your GY; add it to your hand or Special Summon it. Once per turn: 
+                    You can target 1 Dragon monster you control; move that monster you 
+                    control to another of your Main Monster Zones. You can only activate 1 
+                    'World Legacy Guardragon' per turn.";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/a/a6/WorldLegacyGuardragon-MP20-EN-PScR-1E.png".
+
+:DragonRavine a :Spell;
+    :id             9049;
+    :name           "Dragon Ravine";
+    :category       :Field;
+    :desc           "Once per turn: You can discard 1 card, then activate 1 of these effects; \n
+                    ● Add 1 Level 4 or lower 'Dragunity' monster from your Deck to your hand. \n
+                    ● Send 1 Dragon monster from your Deck to the GY.";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/9/9f/DragonRavine-LCKC-EN-ScR-1E.png".
+
+:DragonmaidTidying a :Trap;
+    :id             15311;
+    :name           "Dragonmaid Tidying";
+    :category       :Normal;
+    :desc           "Target 1 Dragon monster you control and 1 card your opponent controls 
+                    or in their GY; return them to the hand. You can banish this card from 
+                    your GY; Special Summon 1 'Dragonmaid' monster from your hand or GY 
+                    in Defense Position, but return it to the hand during the End Phase. 
+                    You can only use 1 'Dragonmaid Tidying' effect per turn, and only once that turn.";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/c/c2/DragonmaidTidying-ROTD-EN-SR-1E.png".
+
+:RedReboot a :Trap;
+    :id             13622;
+    :name           "Red Reboot";
+    :category       :Counter;
+    :desc           "When your opponent activates a Trap Card: Negate the activation, and if you do, 
+                    Set that card face-down, then they can Set 1 Trap directly from their Deck. 
+                    For the rest of this turn after this card resolves, your opponent cannot activate 
+                    Trap Cards. You can activate this card from your hand by paying half your LP.";
+    :image          "https://static.wikia.nocookie.net/yugioh/images/c/cd/RedReboot-FLOD-EN-SR-1E.png".
+
+:Tuner      a :Type;
+    :name           "Tuner";
+    :index          1.
+
+:Synchro    a :Type;
+    :name           "Synchro";
+    :index          2.
+
+:Xyz        a :Type;
+    :name           "Xyz";
+    :index          3.
+
+:Pendulum   a :Type;
+    :name           "Pendulum";
+    :index          4.
+
+:Link       a :Type;
+    :name           "Link";
+    :index          5.
+
+:Normal     a :Type;
+    :name           "Normal";
+    :index          6.
+    
+:Effect     a :Type;
+    :name           "Effect";
+    :index          7.
+
+:Quick      a :Type;
+    :name           "Quick";
+    :index          8.
+
+:Field      a :Type;
+    :name           "Field";
+    :index          9.
+
+:Equip      a :Type;
+    :name           "Equip";
+    :index          10.
+
+:Ritual     a :Type;
+    :name           "Ritual";
+    :index          11.
+
+:Continuous a :Type;
+    :name           "Continuous";
+    :index          12.
+
+:Counter    a :Type;
+    :name           "Counter";
+    :index          13.
