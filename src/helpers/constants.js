@@ -9,7 +9,7 @@ const { Connection } = require("stardog");
     },
     {
         selector: "type",
-        label: "Type"
+        label: "Card"
     },
     {
         selector: "name",

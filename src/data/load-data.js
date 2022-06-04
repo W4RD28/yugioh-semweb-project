@@ -4,7 +4,7 @@ const { query, db } = require('stardog');
 const { conn, dbName } = require("../helpers/constants");
 const { wrapWithResCheck } = require("../helpers/wrapWithResCheck");
 
-const data = fs.readFileSync(path.join(__dirname, "data.ttl"), "utf8");
+const data = fs.readFileSync(path.join(__dirname, "./data.ttl"), "utf8");
 const insertQuery = `insert data { ${data} }`;
 
 const logSuccess = () => console.log(`Created ${dbName}.\n`);
